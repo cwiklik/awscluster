@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "awscluster"
+  description: "dsadsad"
+  annotations:
+    github.com/project-slug: cwiklik/awscluster
+    backstage.io/kubernetes-id: "awscluster"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "user:default/guest"
